@@ -1,0 +1,28 @@
+@CHARSET "US-ASCII";
+
+body,html {
+	margin: 0;
+	font-family: sans-serif;
+}
+table {
+	border-collapse: collapse;
+}
+table.std td {
+	padding: 0px 10px 0px 10px;
+}
+ul.menu {
+	display: block;
+	height: 2.5em;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+ul.menu li {
+	float: left;
+}
+ul.menu li.right {
+	float: right;
+}
+h1.hdr {
+	
+}
