@@ -14,4 +14,5 @@ include_once 'neogeo_util.php';
 		$resp = array("success" => false, "msg" => $e->getTraceAsString());
 	}
 	echo json_encode($resp, JSON_NUMERIC_CHECK);
+	
 ?>
